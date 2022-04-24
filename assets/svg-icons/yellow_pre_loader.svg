@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="75" viewBox="0 0 58 75">
+  <g id="Group_310" data-name="Group 310" transform="translate(-159 -361)">
+    <g id="Loader" transform="translate(165 361)">
+      <g id="Group_4" data-name="Group 4">
+        <path id="Path_90" data-name="Path 90" d="M22.5,45A22.5,22.5,0,1,1,45,22.5,22.534,22.534,0,0,1,22.5,45Zm0-40A17.5,17.5,0,1,0,40,22.5,17.519,17.519,0,0,0,22.5,5Z" fill="#fff" opacity="0.3"/>
+      </g>
+      <g id="Group_5" data-name="Group 5">
+        <path id="Path_91" data-name="Path 91" d="M22.5,45A22.534,22.534,0,0,1,0,22.5,2.476,2.476,0,0,1,2.5,20,2.476,2.476,0,0,1,5,22.5,17.5,17.5,0,1,0,22.5,5,2.476,2.476,0,0,1,20,2.5,2.476,2.476,0,0,1,22.5,0a22.5,22.5,0,0,1,0,45Z" fill="#ebf411"/>
+      </g>
+    </g>
+    <text id="Loading" transform="translate(188 432)" fill="#ebf411" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-28.922" y="0">Loading</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_343" data-name="Group 343" transform="translate(-162 -636)">
+    <g id="Ellipse_238" data-name="Ellipse 238" transform="translate(162 636)" fill="#464545" stroke="#fff" stroke-width="1">
+      <circle cx="26" cy="26" r="26" stroke="none"/>
+      <circle cx="26" cy="26" r="25.5" fill="none"/>
+    </g>
+    <g id="Component_24_515" data-name="Component 24 – 515" transform="translate(180 654)" clip-path="url(#clip-path)">
+      <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H0V9.039H12.052L6.545,14.545,8,16l8-8Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

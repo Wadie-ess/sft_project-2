@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="332" height="36" viewBox="0 0 332 36">
+  <g id="Pagination" transform="translate(-15 -100)">
+    <rect id="Rectangle_1374" data-name="Rectangle 1374" width="273" height="2" transform="translate(51 107)" fill="#464545"/>
+    <circle id="Ellipse_309" data-name="Ellipse 309" cx="8" cy="8" r="8" transform="translate(40 100)" fill="#2d2d2d"/>
+    <g id="Ellipse_310" data-name="Ellipse 310" transform="translate(319 100)" fill="#fff" stroke="#464545" stroke-width="1">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7.5" fill="none"/>
+    </g>
+    <g id="Ellipse_312" data-name="Ellipse 312" transform="translate(186 100)" fill="#fff" stroke="#464545" stroke-width="1">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7.5" fill="none"/>
+    </g>
+    <text id="SEND_PHOTO" data-name="SEND PHOTO" transform="translate(48 134)" fill="#464545" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-32.969" y="0">SEND PHOTO</tspan></text>
+    <text id="SEND_BANK_INFO_TO_CLAIM" data-name="SEND BANK INFO TO CLAIM" transform="translate(194 134)" fill="#464545" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-68.518" y="0">SEND BANK INFO TO CLAIM</tspan></text>
+    <text id="STATUS" transform="translate(327 134)" fill="#464545" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-19.258" y="0">STATUS</tspan></text>
+  </g>
+</svg>
