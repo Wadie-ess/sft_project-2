@@ -1,7 +1,9 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:sizer/sizer.dart';
 import 'package:world/constants/CColors.dart';
 import 'package:world/routes/locationPermission/location_permission_page.dart';
 import 'package:world/routes/main/my_home_page.dart';
@@ -59,30 +61,36 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
   }
 
   Widget _buildImage(String assetName, String title, String content, int screenNumber) {
-    return Column(
+    return Flex(
+      direction: Axis.vertical,
       children: [
         SizedBox(height: Get.height * 0.225),
-        FittedBox(
-          child: Text(
+        Flexible(
+          flex: 1,
+          child: AutoSizeText(
             title,
             style: TextStyle(
               fontFamily: 'Roboto',
               color: Color(0xff464545),
-              fontSize: 18,
+              fontSize: 18.sp,
             ),
             textAlign: TextAlign.center,
           ),
         ),
         SizedBox(height: Get.height * 0.026),
-        SvgPicture.asset(
-          "assets/onboarding/$assetName.svg",
-          width: Get.width * 0.75,
+        Flexible(
+          flex: 1,
+          child: SvgPicture.asset(
+            "assets/onboarding/$assetName.svg",
+            width: Get.width * 0.75,
+          ),
         ),
         SizedBox(height: Get.height * 0.050),
-        Expanded(
+        Flexible(
+          flex: 1,
           child: Padding(
             padding: const EdgeInsets.only(left: 16.0, right: 16.0),
-            child: Text(
+            child: AutoSizeText(
               content,
               style: screenNumber==1?TextStyle(
                 fontFamily: 'Roboto',
@@ -105,12 +113,12 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
 
   Widget button({String text, bool isPassive}) {
     return Chip(
-      label: Text(
+      label: AutoSizeText(
         text,
         style: TextStyle(
           fontFamily: 'Roboto',
           color: isPassive ? Color(0xff9D9B9D) : Color(0xff464545),
-          fontSize: 15,
+          fontSize: 15.sp,
         ),
       ),
       padding: EdgeInsets.only(left: Get.width * 0.02, right: Get.width * 0.02),
@@ -147,6 +155,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
   Widget build(BuildContext context) {
     return IntroductionScreen(
       //  key: introKey,
+      
       globalBackgroundColor: Colors.white,
       globalHeader: logo(),
       pages: [
@@ -154,7 +163,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           title: "",
           body: "",
           image: _buildImage(splashData[0].imageName, splashData[0].title, splashData[0].text, 1),
-          decoration: PageDecoration(fullScreen: true),
+          decoration: PageDecoration(fullScreen: true,),
         ),
         PageViewModel(
           title: "",
